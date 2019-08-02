@@ -1,6 +1,115 @@
+body {
+	font-size: 16px;	
+	line-height: 24px;	
+	color: #404040;
+	background-color: #ffffff;
+	font-family: "Arial", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
 .page-header,
 .page-footer {
 	padding: 10px;
+	background-color: #916240;
+	color: #ffffff;
+}
+
+.main-nav {
+	list-style: none;	
+}
+
+.main-nav li {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 15px;	
+}
+
+.main-nav a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.main-nav a:hover {
+	text-decoration: underline;	
+}
+
+.main-nav a:active {
+	color: rgba(255, 255, 255, 0.3);
+}
+
+.btn {
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.promo {
+	text-align: center;
+	font-size: 60px;
+	font-weight: bold;
+	line-height: 55px;
+}
+
+.features {
+	background-color: #ffcb78;
+}
+
+.features ul {
+	list-style: none;
+	text-align: left;	
+}
+
+.feature-item {
+	border-left: 1px solid #e7b66a;
+}
+
+.feature-item:first-child {
+	border-left: none;
+}
+
+.feature-title {
+	text-transform: uppercase;
+	color: #000000;
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 26px;
+}
+
+.section-title {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 36px;
+	/* line-height: 25 */
+}
+
+.reference-title {
+	text-transform: uppercase;
+	color: #000000;
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 26px;
+}
+
+.reference-source {
+	font-style: italic;
+}
+
+.press-reviews {
+	background-color: #ede5d8;
+}
+
+cite {
+	font-style: normal;
+	text-transform: uppercase;
+	color: #000000;
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 26px;
+}
+
+.order {
+	background-color: #ffcb78;
 }
 
 .order-form-group {
